@@ -51,6 +51,11 @@ p {
   /*background-color: #00adb5;*/
 }
 
+.sub-head{
+  margin-bottom: 0;
+  color: #EEEEEE;
+}
+
 .bottom-cloud {
   position: absolute;
   left: 20%;
@@ -63,10 +68,19 @@ p {
   top: 10%;
 }
 .skill-row{
-  margin:100px auto 100px auto;
+  margin:70px auto 70px auto;
   width:50%;
   text-align:left;
   line-height: 2;
+}
+.course-row{
+  margin:70px auto 70px auto;
+  width:50%;
+  text-align:left;
+  line-height: 2;
+}
+.skill-description{
+  margin-bottom: 0;
 }
 .profile{
   padding-top: 10px;
@@ -83,6 +97,26 @@ p {
   width:25%;
   margin-left: 30px;
 }
+.course-image{
+  float:left;
+  width:28%;
+  margin-right: 30px;
+}
+.free-contact{
+  color : #00adb5;
+  padding-top: 20px;
+}
+
 .footer-link{
   padding: 0rem 1rem;
+}
+
+.social-network-icon{
+  height: 30px;
+}
+
+.footer-para{
+  padding-top: 10px;
+  color: grey;
+  font-size: 10px;
 }
